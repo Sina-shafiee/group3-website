@@ -66,5 +66,111 @@
           <p>We’ll discuss your requirements together</p>
         </section>
       </section>
+      
+      <!-- contact form -->
+      <section>
+        <h3>Contact</h3>
+        <form action="">
+          <label for="email">E-mail Address*</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <label for="firstname">First Name*</label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Your First Name"
+            required
+          />
+          <label for="lastname">Last Name*</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Your Last Name"
+            required
+          />
+          <label for="company">Company</label>
+          <input
+            type="text"
+            name="company"
+            id="company"
+            placeholder="Your Company"
+          />
+          <label for="phone">Phone Number</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Your Phone Number"
+            minlength="11"
+            maxlength="14"
+          />
+          <label for="message">Your Message*</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="write a few words to us..."
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <p>What services can we support you with?</p>
+          <input type="checkbox" name="servicSupport" id="AppDev" />
+          <label for="AppDev">Application Development</label>
+          <input type="checkbox" name="support" id="DevService" />
+          <label for="DevService">Development Services</label>
+          <input type="checkbox" name="support" id="IntegrationService" />
+          <label for="IntegrationService">Integration Services</label>
+          <input type="checkbox" name="support" id="EngineeringData" />
+          <label for="EngineeringData">Data Engineering</label>
+          <input type="checkbox" name="support" id="DataAnalytics" />
+          <label for="DataAnalytics">Data Analytics</label>
+          <p>
+            Moon Web is committed to protecting and respecting your privacy, and
+            we’ll only use your personal information to administer your account
+            and to provide the products and services you requested from us. From
+            time to time, we would like to contact you about our products and
+            services, as well as other content that may be of interest to you.
+            If you consent to us contacting you for this purpose, please tick
+            below to say how you would like us to contact you:
+          </p>
+          <input
+            type="checkbox"
+            name="connectionCheckbox"
+            id="connectionCheckbox"
+          />
+          <label for="connectionCheckbox">
+            I agree to receive other communications from Moon Web.
+          </label>
+          <p>
+            In order to provide you the content requested, we need to store and
+            process your personal data. If you consent to us storing your
+            personal data for this purpose, please tick the checkbox below.
+          </p>
+          <input
+            type="checkbox"
+            name="processData"
+            id="processData"
+            checked
+            required
+          />
+          <label for="processData">
+            I agree to allow Moon Web to store and process my personal data.*
+          </label>
+          <p>
+            You can unsubscribe from these communications at any time. For more
+            information on how to unsubscribe, our privacy practices, and how we
+            are committed to protecting and respecting your privacy, please
+            review our Privacy Policy.
+          </p>
+          <button>Get in touch</button>
+        </form>
+      </section>
   </body>
 </html>
